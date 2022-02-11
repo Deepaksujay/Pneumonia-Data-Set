@@ -1,2 +1,3 @@
 # Pneumonia-Data-Set
-Machine Learning Logistic Regression Model which was Trained on 5000+ Penumonia Data samples
+Machine Learning Logistic Regression Model which was Trained on 5000+ Penumonia Data samples.This set has two parts one is test and other is train where train data set has 5000+ images and test has 500+ approx. All images were first converted to 100X100 matrix and stored in an npz file. And then we balanced the data set so that model will be more accurate, though sample number might decrease considerably. And then the categorical values are mapped to 0's and 1's respectively. And at last the inputs were resized from 100X100 to 10000 for the sake of model, and from there SciKitLearn did the heavy part ;)
+>> Achieved an accuracy of 65.7%. And this is for Logistic Regression model and not CNN or not even Deep NN!
